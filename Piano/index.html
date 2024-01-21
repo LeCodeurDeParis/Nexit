@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body class="light-mode">
+    <ul>
+        <li class="tab tab-morceau1 tab-active"><button onclick="open">Danse Hongroise</button></li>
+        <li class="tab tab-morceau2"><button onclick="open">La dispute</button></li>
+        <li class="tab tab-morceau3"><button onclick="open">Valse de Chopin</button></li>
+        <li class="tab tab-morceau4"><button onclick="open">La campanella</button></li>
+    </ul>
+
+        <div class="content active">
+            <p>Compositeur: Brahms</p>
+        </div>
+
+        <div class="content">
+            <p>Compositeur: Yann Tiersen</p>
+        </div>
+
+        <div class="content">
+            <p>Compositeur: Chopin</p>
+        </div>
+
+        <div class="content">
+            <p>Compositeurs : Paganini et Listz</p>
+        </div>
+
+        
+
+        <form action="" method="POST" enctype="multipart/form-data">
+            <label for="Nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="Votre Nom">
+            <label for="Prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" placeholder="Votre Prénom">
+            <label for="Email">Email</label>
+            <input type="text" id="email" name="email" placeholder="Votre Email">
+            <input type="submit">
+        </form>
+
+        <button id="darkModeToggle">Dark Mode</button>
+
+        <section class = accordeon>
+            <div class="titre">
+                <p>Test</p>
+                <img src="fleche_droite.png">
+            </div>
+            <div class="contenu">
+                <ul>
+                    <li>Test au HTML</li>
+                    <li>Test au CSS</li>
+                    <li>Test au JS</li>
+                    <li>Test au Gingembre</li>
+                </ul>
+            </div>
+        </section>
+    <script src="main.js"></script>
+</body>
+</html>
